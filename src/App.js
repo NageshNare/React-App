@@ -1,16 +1,19 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Products from './components/Products';
-import Header from './components/Header';
-import Footer from './components/Footer'; 
+ 
+import {BrowserRouter} from 'react-router-dom'
+import PLP from './components/PLP';
+
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Products />
-      <Footer />
+    
+      <BrowserRouter> 
+        <PLP />
+      </BrowserRouter>
+     
     </div>
   );
 }

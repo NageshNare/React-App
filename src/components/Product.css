@@ -1,0 +1,17 @@
+.product{
+    Display: flex;
+    box-sizing: border-box;
+}
+
+.product-section{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+}
+
+.product-title{
+    width: 150px;
+    overflow: hidden;
+
+}

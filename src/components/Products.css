@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+ 
+  .main-container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .filter{
+    margin-top: 85px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+.products{
+    margin-top: 85px;
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+

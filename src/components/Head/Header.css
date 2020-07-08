@@ -1,0 +1,41 @@
+.main-header {
+    color: burlywood;
+    background-color: darkcyan;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    z-index: 1;
+}
+
+.logo{
+    text-align: left;
+    margin-left: 10px;
+}
+.main-header > div{
+    display: inline;
+    text-align: left;
+}
+
+.main-nav{
+    display: inline;
+    
+}
+
+.main-nav__items{
+    display: inline;
+    text-align: right;
+    
+}
+.main-nav__item{
+    display: inline-block;
+    margin: 5px;
+}
+
+.main-nav__Cat{
+    display: inline;
+}
+
+.main-nav__Cat_name{
+    display: inline-block;
+    margin: 5px;
+}
